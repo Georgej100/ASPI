@@ -19,7 +19,7 @@ CS (optional)  |      Chip select
 ============================================================================================
 
 Clock:
-The clock signal for data. Data is read on the rising edge
+The clock signal for data. Data is read on the rising edge. The clock doesn't need to be stable and the lenght between the rising edges can differ.
 
 DAT1:
 DAT1 is the Tx signal for both mode 1 and 2.
